@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>utech website</title>
+    <link rel="stylesheet"  href="style.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"> </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html.html">Home</a></li>
+                <li><a href="about.html.html">About</a></li>
+                
+                <li><a href="course.html.html">course</a></li>
+                <li><a href="Blogs.html.html">Blog</a></li>
+                <li><a href="contact.html.html">contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"  onclick="showMenu()"></i>
+    </nav>
+    <h1>our courses</h1>
+    
+
+    </section>
+
+    <!------ Course------->
+    <section class="course">
+      <h1> course we offer</h1>
+      <p>In our college we teach BE Civil,BE Electrical & Electronics and BE Computer </p>
+
+     <div class="row">
+         <div class="course-col">
+             <h3>BE Civil</h3>
+             <p>Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works.</p>
+         </div>
+         <div class="course-col">
+            <h3>BE Electrical & Electronics</h3>
+            <p>Electrical engineering is an engineering discipline concerned with the study, design and application of equipment, devices and systems which use electricity, electronics, and electromagnetism.
+        </div>
+        <div class="course-col">
+            <h3>BE computer</h3>
+            <p>Computer engineering is a discipline that integrates several fields of electrical engineering and computer science required to develop computer hardware and software.
+                
+                </p>
+        </div>
+        
+     </div> 
+  </section>
+
+   <!------ facilities------->
+   <section class="facilities">
+    <h1>our facilities</h1>
+    <p>The pain itself is important to the main adipisicing elite. When you encounter a hate, it takes consequences from those who flee. Ours are an error!</p>
+     
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/18.jpg">
+            <h3>Best college library</h3>
+            <p>The library is well stocked with large volume of relevant books, daily newspapers and journals. It is well-equipped, spacious, fully computerized and supported by internet across.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/19.jpg">
+            
+            <h3>Technologically Sophisticated Labs</h3>
+            <p>Well-equipped Science Labs, Civil Engineering Labs, Electrical & Electronics Engineering Labs and Computer Labs.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/15.jpg">
+            <h3>Educational Tours and Field Visits</h3>
+            <p>Different educational tours and field visits are conducted as per the course requirements of Pokhara 
+                University such as: Geology Tour,<br> Foundation Engineering Tour, Survey Camp, Irrigation Tour,etc.</p>
+        </div>
+    </div>
+</section>
+
+    
+
+  
+
+  <!------ footer------->
+
+  <section class="footer">
+      <h4>About us</h4>
+      <p>United Technical College is an engineering college located in Bharatpur, Chitwan. It was established in 2066 B.S. and is affiliated to Pokhara University. United Technical College has long run expectation to prepare itself as human resources producing institution in the field of engineering technology at different levels such as bachelors and masters program in different discipline. 
+
+        Since its establishment, the youths from outside the valley region have taken  full advantage and are continually enrolling in different engineering disciplines offered by the college.
+        
+        It caters Bachelor level engineering program in Civil Engineering (96 Seats ), Electrical and Electronics (48 Seats). It looks after the academic are of consultancy services, research and developmental activities in the engineering field.
+        </p>
+         <div class="icons">
+            <a href="https://www.facebook.com/utecchitwan" target="_blank"><i class="fa fa-facebook"></i></a>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+
+         </div>
+         <p>Made by Srijan Subedi and Bishnu Bhandari  <i class="fa fa-handshake-o"></i></p>
+         
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------javascript for Toggle Menu-------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+
+
+    </script>
+    
+</body>
+</html>
